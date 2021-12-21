@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CustomKanzlerTableviewCell: UITableViewController {
+class CustomKanzlerTableviewCell: UITableViewCell {
 
     @IBOutlet weak var KanzlerLabel: UILabel!
     @IBOutlet weak var Kanzlerimage: UIImageView!

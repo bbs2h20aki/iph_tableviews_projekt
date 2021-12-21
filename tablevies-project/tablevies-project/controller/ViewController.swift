@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showBeschreibung"{
             let zielTableVC = segue.destination as! BeschreibungTableViewController
-            zielTableVC.game = selectedKanzler
+            zielTableVC.kanzler = selectedKanzler
         }
     }
 
@@ -60,8 +60,8 @@ extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell",for: indexPath) as! CustomKanzlerTableviewCell
         
-        cell.gameLabel.text = filteredKanzler[indexPath.row].gameName
-        cell.gamesImage.image = UIImage(named: filteredKanzler[indexPath.row].imageName)
+        cell.KanzlerLabel.text = filteredKanzler[indexPath.row].Name
+        cell.Kanzlerimage.image = UIImage(named: filteredKanzler[indexPath.row].imageName)
         
         return cell
     }
@@ -74,7 +74,7 @@ extension ViewController: UISearchBarDelegate{
         let searchText = searchText.lowercased()
         if searchText != ""{
             filteredKanzler = allKanzler.filter({game in
-                if game.gameName.lowercased().contains(searchText){
+                if game.Name.lowercased().contains(searchText){
                     return true
                 }
                 return false
