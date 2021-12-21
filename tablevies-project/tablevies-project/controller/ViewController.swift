@@ -60,7 +60,7 @@ extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell",for: indexPath) as! CustomKanzlerTableviewCell
         
-        cell.KanzlerLabel.text = filteredKanzler[indexPath.row].Name
+        cell.KanzlerLabel.text = filteredKanzler[indexPath.row].name
         cell.Kanzlerimage.image = UIImage(named: filteredKanzler[indexPath.row].imageName)
         
         return cell
@@ -73,8 +73,8 @@ extension ViewController: UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         let searchText = searchText.lowercased()
         if searchText != ""{
-            filteredKanzler = allKanzler.filter({game in
-                if game.Name.lowercased().contains(searchText){
+            filteredKanzler = allKanzler.filter({kanzler in
+                if kanzler.name.lowercased().contains(searchText){
                     return true
                 }
                 return false

@@ -72,7 +72,6 @@
 				A2498DFA2771C1910053E21A /* AppDelegate.swift */,
 				A2498DFC2771C1910053E21A /* SceneDelegate.swift */,
 				A2498E032771C1920053E21A /* Assets.xcassets */,
-				A2498E052771C1920053E21A /* LaunchScreen.storyboard */,
 				A2498E082771C1920053E21A /* Info.plist */,
 			);
 			path = "tablevies-project";
@@ -81,6 +80,7 @@
 		A2498E0E2771C3C60053E21A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A2498E052771C1920053E21A /* LaunchScreen.storyboard */,
 				A2498E1D2771D1FE0053E21A /* Main.storyboard */,
 			);
 			path = view;
@@ -89,9 +89,9 @@
 		A2498E0F2771C3EE0053E21A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				A2498E172771C4CB0053E21A /* CustomKanzlerTableviewCell.swift */,
 				A2498E132771C4680053E21A /* data.swift */,
 				A2498E152771C49D0053E21A /* data.json */,
-				A2498E172771C4CB0053E21A /* CustomKanzlerTableviewCell.swift */,
 				A2498E192771C4EE0053E21A /* model.swift */,
 			);
 			path = model;
