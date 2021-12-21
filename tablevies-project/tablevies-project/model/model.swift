@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct model:Decodable {
+struct model : Decodable {
     
     var name: String
     var gebdate: String
-    var partei:String
+    var partei: String
     var amtszeit: String
     var imageName: String
 }
