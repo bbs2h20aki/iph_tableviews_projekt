@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct kanzlermodel:Decodable {
+struct kanzlermodel:Codable {
     
     var name: String
     var gebdate: String

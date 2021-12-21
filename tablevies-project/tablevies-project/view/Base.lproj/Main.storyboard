@@ -230,8 +230,8 @@
                     </tableView>
                     <connections>
                         <outlet property="Amtszeit" destination="iwX-EB-xIX" id="yug-xt-d76"/>
-                        <outlet property="KanzlerImage" destination="ur0-TB-Py3" id="H6t-fH-FHV"/>
-                        <outlet property="KanzlerLabel" destination="qv3-8H-cPn" id="9lm-hE-C0Z"/>
+                        <outlet property="KanzlerImageB" destination="ur0-TB-Py3" id="Ff5-T5-GjB"/>
+                        <outlet property="KanzlerLabelB" destination="qv3-8H-cPn" id="rpq-lg-9my"/>
                         <outlet property="Kanzlergebdatum" destination="TGr-Oi-EkB" id="NJb-3N-5na"/>
                         <outlet property="Partei" destination="DuC-EE-tWi" id="KmO-7M-RXX"/>
                     </connections>
