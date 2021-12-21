@@ -10,7 +10,6 @@
 		A2498DFB2771C1910053E21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2498DFA2771C1910053E21A /* AppDelegate.swift */; };
 		A2498DFD2771C1910053E21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2498DFC2771C1910053E21A /* SceneDelegate.swift */; };
 		A2498DFF2771C1910053E21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2498DFE2771C1910053E21A /* ViewController.swift */; };
-		A2498E022771C1910053E21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2498E002771C1910053E21A /* Main.storyboard */; };
 		A2498E042771C1920053E21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2498E032771C1920053E21A /* Assets.xcassets */; };
 		A2498E072771C1920053E21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2498E052771C1920053E21A /* LaunchScreen.storyboard */; };
 		A2498E122771C4400053E21A /* beschreibungTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2498E112771C4400053E21A /* beschreibungTableViewController.swift */; };
@@ -18,6 +17,7 @@
 		A2498E162771C49D0053E21A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A2498E152771C49D0053E21A /* data.json */; };
 		A2498E182771C4CB0053E21A /* CustomKanzlerTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2498E172771C4CB0053E21A /* CustomKanzlerTableviewCell.swift */; };
 		A2498E1A2771C4EE0053E21A /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2498E192771C4EE0053E21A /* model.swift */; };
+		A2498E1F2771D1FE0053E21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2498E1D2771D1FE0053E21A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		A2498DFA2771C1910053E21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2498DFC2771C1910053E21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2498DFE2771C1910053E21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2498E012771C1910053E21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2498E032771C1920053E21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2498E062771C1920053E21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2498E082771C1920053E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		A2498E152771C49D0053E21A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		A2498E172771C4CB0053E21A /* CustomKanzlerTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKanzlerTableviewCell.swift; sourceTree = "<group>"; };
 		A2498E192771C4EE0053E21A /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		A2498E1E2771D1FE0053E21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		A2498E0E2771C3C60053E21A /* view */ = {
 			isa = PBXGroup;
 			children = (
-				A2498E002771C1910053E21A /* Main.storyboard */,
+				A2498E1D2771D1FE0053E21A /* Main.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 			files = (
 				A2498E072771C1920053E21A /* LaunchScreen.storyboard in Resources */,
 				A2498E042771C1920053E21A /* Assets.xcassets in Resources */,
-				A2498E022771C1910053E21A /* Main.storyboard in Resources */,
 				A2498E162771C49D0053E21A /* data.json in Resources */,
+				A2498E1F2771D1FE0053E21A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,20 +190,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2498E002771C1910053E21A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2498E012771C1910053E21A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2498E052771C1920053E21A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A2498E062771C1920053E21A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2498E1D2771D1FE0053E21A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2498E1E2771D1FE0053E21A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

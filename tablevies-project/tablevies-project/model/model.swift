@@ -14,4 +14,5 @@ struct model:Decodable {
     var gebdate: String
     var partei:String
     var amtszeit: String
+    var imageName: String
 }

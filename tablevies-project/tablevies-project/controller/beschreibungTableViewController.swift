@@ -7,16 +7,35 @@
 
 import UIKit
 
-class beschreibungTableViewController: UITableViewController {
-
+class BeschreibungTableViewController: UITableViewController {
+    
+    
+    @IBOutlet weak var KanzlerImage: UIImageView!
+    @IBOutlet weak var KanzlerLabel: UILabel!
+    @IBOutlet weak var Kanzlergebdatum: UILabel!
+    @IBOutlet weak var Partei: UILabel!
+    @IBOutlet weak var Amtszeit: UILabel!
+    
+    
+    
+    
+    var kanzler: model?
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.tableFooterView = UIView()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        
+        KanzlerImage.image = UIImage(named: kanzler?.imageName ?? "olaf")
+        KanzlerLabel.text = kanzler?.Name
+        Kanzlergebdatum.text = kanzler?.gebdate
+        Partei.text = kanzler?.partei
+        Amtszeit.text = kanzler?.amtszeit
+        
     }
 
     
