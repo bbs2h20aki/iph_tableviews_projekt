@@ -4,53 +4,62 @@
   "gebdate" : "14. Juni 1958",
   "partei" : "SPD",
   "amtszeit" : "seit 8. Dezember 2021"
+  "imageName" : "scholz"
 },
 {
   "Name" : "Angela Merkel",
   "gebdate" : "17. Juli 1954",
   "partei" : "CDU",
   "amtszeit" : "22. November 2005 bis zum 8. Dezember 2021"
+  "imageName" : "merkel"
 },
 {
   "Name" : "Gerhard Schröder",
   "gebdate" : "7. April 1944",
   "partei" : "SPD",
   "amtszeit" : "27. Oktober 1998 bis zum 22. November 2005"
+  "imageName" : "schroeder"
 },
 {
   "Name" : "Helmut Kohl",
   "gebdate" : "3. April 1930",
   "partei" : "CDU",
   "amtszeit" : "1. Oktober 1982 bis zum 27. Oktober 1998"
+  "imageName" : "kohl"
 },
 {
   "Name" : "Helmut Schmidt",
   "gebdate" : "23. Dezember 1918",
   "partei" : "SPD",
   "amtszeit" : "16. Mai 1974 bis zum 1. Oktober 1982"
+  "imageName" : "schmidt"
 },
 {
   "Name" : "Willy Brandt",
   "gebdate" : "18. Dezember 1913",
   "partei" : "SPD",
   "amtszeit" : "21. Oktober 1969 bis zum 7. Mai 1974"
+  "imageName" : "brandt"
 },
 {
   "Name" : "Kurt Georg Kiesinger",
   "gebdate" : "6. April 1904",
   "partei" : "CDU",
   "amtszeit" : "1. Dezember 1966 bis zum 21. Oktober 1969"
+  "imageName" : "kiesinger"
 },
 {
   "Name" : "Ludwig Erhard",
   "gebdate" : "4. Februar 1897",
   "partei" : "CDU",
   "amtszeit" : "16. Oktober 1963 bis zum 1. Dezember 1966"
+  "imageName" : "erhard"
 },
 {
   "Name" : "Konrad Adenauer",
   "gebdate" : "17. Juli 1954",
   "partei" : "CDU",
   "amtszeit" : "15. September 1949 bis zum 16. Oktober 1963"
+  "imageName" : "adenauer"
 }
 ]
