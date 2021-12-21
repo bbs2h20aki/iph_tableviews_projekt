@@ -7,7 +7,9 @@
 
 import Foundation
 
+
 struct kanzlermodel : Decodable {
+
     
     var name: String
     var gebdate: String

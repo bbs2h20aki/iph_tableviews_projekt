@@ -31,7 +31,7 @@ class BeschreibungTableViewController: UITableViewController {
         
         
 
-        KanzlerImageB.image = UIImage(named: kanzler?.imageName ?? "olaf")
+        KanzlerImageB.image = UIImage(named: kanzler?.imageName ?? "scholz")
         KanzlerLabelB.text = kanzler?.name
         Kanzlergebdatum.text = kanzler?.gebdate
         Partei.text = kanzler?.partei
