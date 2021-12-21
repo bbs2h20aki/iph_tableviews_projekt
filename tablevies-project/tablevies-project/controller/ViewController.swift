@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     //MARK: = Data
     var allKanzler = KanzlerData
-    var selectedKanzler: model?
+    var selectedKanzler: kanzlermodel?
     var filteredKanzler = KanzlerData
     
     

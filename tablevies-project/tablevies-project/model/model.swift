@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct model:Decodable {
+struct kanzlermodel:Decodable {
     
     var Name: String
     var gebdate: String
-    var partei:String
+    var partei: String
     var amtszeit: String
     var imageName: String
 }

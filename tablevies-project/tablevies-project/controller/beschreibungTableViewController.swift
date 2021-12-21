@@ -10,8 +10,8 @@ import UIKit
 class BeschreibungTableViewController: UITableViewController {
     
     
-    @IBOutlet weak var KanzlerImage: UIImageView!
-    @IBOutlet weak var KanzlerLabel: UILabel!
+    @IBOutlet weak var KanzlerImageB: UIImageView!
+    @IBOutlet weak var KanzlerLabelB: UILabel!
     @IBOutlet weak var Kanzlergebdatum: UILabel!
     @IBOutlet weak var Partei: UILabel!
     @IBOutlet weak var Amtszeit: UILabel!
@@ -19,7 +19,7 @@ class BeschreibungTableViewController: UITableViewController {
     
     
     
-    var kanzler: model?
+    var kanzler: kanzlermodel?
     
     
     
@@ -30,8 +30,8 @@ class BeschreibungTableViewController: UITableViewController {
 
         
         
-        KanzlerImage.image = UIImage(named: kanzler?.imageName ?? "olaf")
-        KanzlerLabel.text = kanzler?.Name
+        KanzlerImageB.image = UIImage(named: kanzler?.imageName ?? "olaf")
+        KanzlerLabelB.text = kanzler?.Name
         Kanzlergebdatum.text = kanzler?.gebdate
         Partei.text = kanzler?.partei
         Amtszeit.text = kanzler?.amtszeit
