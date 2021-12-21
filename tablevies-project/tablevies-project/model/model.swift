@@ -9,7 +9,7 @@ import Foundation
 
 struct model:Decodable {
     
-    var Name: String
+    var name: String
     var gebdate: String
     var partei:String
     var amtszeit: String
