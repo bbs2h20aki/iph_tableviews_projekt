@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Kanzler-->
+        <!--Know your Kanzler-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tablevies_project" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,7 +69,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Kanzler" id="O2J-87-mVr"/>
+                    <navigationItem key="navigationItem" title="Know your Kanzler" id="O2J-87-mVr"/>
                     <connections>
                         <outlet property="mySearchbar" destination="uL0-Nl-1Kd" id="bc0-BW-Ear"/>
                         <outlet property="myTableView" destination="73q-Oc-u0n" id="vKe-di-sTJ"/>
